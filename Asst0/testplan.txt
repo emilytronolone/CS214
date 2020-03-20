@@ -1,0 +1,140 @@
+ASST 0
+
+Emily Tronolone - emt104
+Alyssa Santos - ats161
+
+
+=====================================================================
+
+Test Case 1
+
+INPUT: hi,there, every,     one
+
+OUTPUT: 
+every
+hi
+one
+there
+
+This test case is a simple word test with a variation of tabs and spaces. 
+We were simply testing if the code worked with a simple input.
+
+
+=====================================================================
+
+Test Case 2
+
+INPUT: 123, 14, 510     , 1
+
+OUTPUT:
+1
+14
+123
+510
+
+This was a simple test case testing numbers with a variation of tabs and spaces.
+
+=====================================================================
+
+Test Case 3
+
+INPUT: 
+
+OUTPUT: 
+warning: file contains no tokens
+
+This test case was an empty file to test if the program recognizes 
+Whether or not the file was empty.
+
+=====================================================================
+
+Test Case 4
+
+INPUT: hello,	hello,
+world, world,			bye
+
+OUTPUT:
+bye
+hello
+hello
+world
+world
+
+This test case was testing the duplication of words with a variation
+of tabs, spaces, and new lines.
+
+=====================================================================
+
+Test Case 5
+
+INPUT:
+
+
+OUTPUT:
+warning: file contains no tokens
+
+This test case was a file that was only tabs, spaces, and 
+new lines.
+
+=====================================================================
+
+Test Case 6
+
+INPUT: 
+,,,
+	
+,
+   
+,,
+
+OUTPUT:
+warning: file contains no tokens
+
+
+
+
+
+
+
+This test was testing a file with only commas.
+
+=====================================================================
+
+Test Case 7
+
+INPUT:
+hello,, world	,	hi	,,  goodbye
+
+OUTPUT:
+	
+	
+goodbye
+hello
+hi
+world
+
+This test case was testing strings with commas and empty tokens. 
+
+
+=====================================================================
+
+Test Case 8
+
+INPUT: 
+-1, -2, -123, -10000, 45
+
+OUTPUT:
+-10000
+-123
+-2
+-1
+45
+
+This test case was testing negative numbers.
+
+=====================================================================
+
+
+The remaining test cases we used were edge cases and files that
+contained a large amount of strings. We did two additional tests:
+one of a 250 mb file and one of a 50mb file.
